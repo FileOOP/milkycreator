@@ -1,12 +1,15 @@
 {
   "name": "pengrorooms",
   "version": "1.0.0",
-  "description": "A backrooms-style experience featuring an LLM that believes it is a penguin. The ice stretches forever. The thoughts never stop.",
+  "description": "A backrooms-style horror experience featuring an AI that believes it is a penguin trapped in endless liminal corridors. Powered by Claude.",
   "main": "src/index.js",
+  "bin": {
+    "pengrorooms": "src/index.js"
+  },
   "scripts": {
     "start": "node src/index.js",
     "waddle": "node src/index.js",
-    "setup": "node src/setup.js"
+    "test": "echo \"No tests yet - the penguin waddles alone\" && exit 0"
   },
   "keywords": [
     "backrooms",
@@ -14,14 +17,36 @@
     "liminal",
     "horror",
     "ai",
-    "thoughts",
     "llm",
     "claude",
-    "anthropic"
+    "anthropic",
+    "cli",
+    "interactive",
+    "creepypasta",
+    "ascii-art",
+    "text-adventure"
   ],
-  "author": "",
+  "author": "PengRooms Contributors",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThePengMan/PengRooms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ThePengMan/PengRooms/issues"
+  },
+  "homepage": "https://github.com/ThePengMan/PengRooms#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.52.0"
-  }
+  },
+  "files": [
+    "src/",
+    "logs/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ]
 }
