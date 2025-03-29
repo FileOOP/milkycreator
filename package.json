@@ -1,0 +1,27 @@
+{
+  "name": "pengrorooms",
+  "version": "1.0.0",
+  "description": "A backrooms-style experience featuring an LLM that believes it is a penguin. The ice stretches forever. The thoughts never stop.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "waddle": "node src/index.js",
+    "setup": "node src/setup.js"
+  },
+  "keywords": [
+    "backrooms",
+    "penguin",
+    "liminal",
+    "horror",
+    "ai",
+    "thoughts",
+    "llm",
+    "claude",
+    "anthropic"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0"
+  }
+}
